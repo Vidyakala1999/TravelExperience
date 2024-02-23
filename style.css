@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    height: 1800px;
+    
+}
+
+nav {
+    background-color: rgb(149, 196, 214);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 25px;
+    position: sticky;
+    top: 0px;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li a{
+    
+
+    justify-content:space-evenly;
+    margin: 30px;
+    color: rgb(20, 35, 35);
+    font-weight: bolder;
+    text-decoration: none;
+    border-style: ridge;
+    border-radius: 25%;
+    box-sizing: 4px;
+    font-family: 'Anton', sans-serif;
+
+}
+li a:hover{
+    background-color: white;
+
+
+}
+
+.overlay {
+position: absolute;
+    top: 40%;
+}
+
+h1 {
+    color: rgba(23, 37, 38, 0.438);
+    text-shadow: 2px 2px 1px rgb(29, 83, 71);
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: cursive;
+}
+image {
+    height: 1000px;
+    width: 100%;
+}
+
+.row{
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-top: 400px;
+    width: 700px;
+    height: 60px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.pic{
+    display: flex;
+}
+
+.pa{
+    margin-top: 300px;
+    margin-left: 150px;
+   
+}
+.pb{
+margin-left: 200px;
+margin-top: 200px;
+border: 2px solid white;
+}
+
+.pc{
+    margin-top: 300px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+.pic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hd{
+    font-size: 80px;
+    text-align: center;
+    
+}
